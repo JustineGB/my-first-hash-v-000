@@ -12,11 +12,11 @@ def shipping_manifest
 end
 
 def retrieval
-  shipping_manifest['oil paintings']
+  shipping_manifest["oil paintings"]
 end
 
 def adding
-shipping_manifest['muskets'] = 2
-shipping_manifest['gun powder'] = 4
-end
+shipping_manifest["muskets"] = 2
+shipping_manifest["gun powder"] = 4
 shipping_manifest
+end
